@@ -3,7 +3,6 @@ import Queue from "../data-structures/Queue.js";
 const [totalRows, totalCols] = [20, 30];
 const dx = [0, 1, 0, -1];
 const dy = [1, 0, -1, 0];
-
 const isValid = (r, c) => {
     return r >= 0 && c >= 0 && r < totalRows && c < totalCols;
 };
